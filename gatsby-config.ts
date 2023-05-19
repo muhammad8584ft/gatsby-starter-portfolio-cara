@@ -12,7 +12,7 @@ const config: GatsbyConfig = {
     siteTitleAlt: `eLib - Regulasi OBU VI`,
     siteHeadline: `Cara - Gatsby Theme from @lekoarts`,
     siteUrl: `https://cara.lekoarts.de`,
-    siteDescription: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+    siteDescription: `eLib - Regulasi OBU VI | Perpustakaan Regulasi dan Kebijakan Penerbangan Direktorat Kelaikudaraan dan Pengoperasian Pesawat Udara`,
     siteImage: `/banner.jpg`,
     siteLanguage: `en`,
     author: `@lekoarts_de`,
