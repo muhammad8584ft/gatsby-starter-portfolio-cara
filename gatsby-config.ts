@@ -29,7 +29,7 @@ const config: GatsbyConfig = {
       options: {
         name: `Cara - @lekoarts/gatsby-theme-cara`,
         short_name: `Cara`,
-        description: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+        description: `eLib - Regulasi OBU VI | Perpustakaan Regulasi dan Kebijakan Penerbangan Direktorat Kelaikudaraan dan Pengoperasian Pesawat Udara`,
         start_url: `/`,
         background_color: `#141821`,
         // This will impact how browsers show your PWA/website
