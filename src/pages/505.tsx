@@ -14,6 +14,22 @@ const NotFound = (_props: PageProps) => (
   <Layout>
     <Parallax pages={1}>
       <div>
+        <div id="pdfViewer"></div>
+
+<script src="https://www.google.com/jsapi"></script>
+<script type="text/javascript">
+  google.load("drive-viewer", "1");
+
+  function loadPDF(fileId) {
+    var pdfViewer = new google.drive.viewer.PdfViewer(document.getElementById('pdfViewer'));
+    pdfViewer.setViewerUrl('https://drive.google.com/file/d/' + fileId + '/preview');
+    pdfViewer.setPdfUrl('https://drive.google.com/uc?export=download&id=' + fileId);
+    pdfViewer.open();
+  }
+
+  // Panggil fungsi loadPDF dengan ID file PDF yang ingin ditampilkan
+  loadPDF('1kc563mPIrjIYBtOvbGU5M-Nv_25b7P_F');
+</script>
         <Divider speed={0.2} offset={0} factor={1}>
           <UpDown>
             <Svg icon="triangle" hiddenMobile width={48} stroke color="icon_orange" left="10%" top="20%" />
